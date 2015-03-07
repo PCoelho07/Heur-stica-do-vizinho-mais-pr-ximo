@@ -1,0 +1,4 @@
+for ((i=1; i<=30; i++)); 
+do
+	./nneighbor ../../instances/fnl4461.tsp > Resultados/res-fnl4461_$i.out
+done
